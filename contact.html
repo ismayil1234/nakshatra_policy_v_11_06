@@ -1,0 +1,48 @@
+<!DOCTYPE html><html><head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact Us</title><link rel="stylesheet" href="assets/css/style.css"></head><body>
+
+
+<!--     
+<div class="container"><div class="top-box">
+<div class="header-row">
+<div class="logo"><img src="assets/images/logo.png" alt="Company Banner"></div>
+<a href="contact.html" class="contact-btn">Contact Us</a>
+</div>
+<div class="about">
+<h1>About Us</h1>
+<p>Welcome to our jewellery and gold scheme platform. We provide trusted services, quality jewellery collections, and customer-friendly gold saving plans. Replace this text later.</p>
+</div>
+</div></div> -->
+
+<div class="container">
+        <div class="top-box">
+            <div id="header"></div>
+        </div>
+    </div>
+
+<div class="container"><div class="content"><h1>Contact Us</h1>
+    <h5>Address</h5>
+
+    <h5>Email</h5>
+    <h5>Website</h5>
+
+</div></div>
+
+<footer><div class="container"><div class="footer-links">
+<a href="privacy-policy.html">Privacy Policy</a>
+<a href="terms-and-conditions.html">Terms & Conditions</a>
+<a href="shipping-policy.html">Shipping & Delivery Policy</a>
+<a href="refund-policy.html">Refund & Returns Policy</a>
+</div></div></footer>
+
+
+ <script>
+        fetch('components/header.html')
+        .then(response => response.text())
+        .then(data => {
+            document.getElementById('header').innerHTML = data;
+        });
+    </script>
+
+</body></html>

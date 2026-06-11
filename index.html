@@ -1,0 +1,52 @@
+<!DOCTYPE html><html><head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Home</title><link rel="stylesheet" href="assets/css/style.css"></head><body>
+
+<div class="container"><div class="top-box">
+
+    <!-- cut from here -->
+
+<div id="header"></div>
+</div></div>
+<!-- <section class="site-content-box">
+<p>
+Welcome to Calicut Nakshatra Gold & Diamonds.
+We provide trusted jewellery collections and customer-friendly gold savings plans with transparency and support.
+</p>
+</section> -->
+
+<section class="site-content-box">
+
+    <h2>Welcome to Calicut Nakshatra Gold & Diamonds</h2>
+
+    <p>
+        Trusted jewellery collections, transparent gold savings plans,
+        and customer-first service with reliability and care.
+    </p>
+
+</section>
+
+<div class="container"><section class="products">
+<h2>Our Jewellery Collections</h2>
+<div class="grid">
+<div class="card"><img src="https://images.unsplash.com/photo-1617038260897-41a1f14a8ca0?w=800"><h3>Gold Necklace</h3><p>Elegant traditional necklace collections.</p></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1605100804763-247f67b3557e?w=800"><h3>Gold Ring</h3><p>Premium handcrafted gold rings.</p></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1611652022419-a9419f74343d?w=800"><h3>Gold Bangles</h3><p>Beautiful designs for every occasion.</p></div>
+</div></section></div>
+
+<footer><div class="container"><div class="footer-links">
+<a href="privacy-policy.html">Privacy Policy</a>
+<a href="terms-and-conditions.html">Terms & Conditions</a>
+<a href="shipping-policy.html">Shipping & Delivery Policy</a>
+<a href="refund-policy.html">Refund & Returns Policy</a>
+</div></div></footer>
+
+<script>
+fetch('components/header.html')
+.then(response => response.text())
+.then(data => {
+    document.getElementById('header').innerHTML = data;
+});
+</script>
+
+</body></html>
