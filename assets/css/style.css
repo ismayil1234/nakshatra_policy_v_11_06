@@ -16,20 +16,25 @@ justify-content:space-between;
 align-items:center;
 }
 .logo img{width:260px;height:70px;object-fit:contain}
-/* .contact-btn{background:#C1121F;color:#fff;padding:10px 18px;text-decoration:none;border-radius:8px;font-weight:600} */
+.home-btn,
 .contact-btn{
-background:#fff;
-color:#b30000;
-padding:12px 20px;
-text-decoration:none;
-border-radius:10px;
-font-weight:600;
-box-shadow:0 2px 8px rgba(0,0,0,.15);
-transition:.2s;
+    background:#fff;
+    color:#b30000;
+    padding:12px 20px;
+    text-decoration:none;
+    border-radius:10px;
+    font-weight:600;
+    box-shadow:0 2px 8px rgba(0,0,0,.15);
+    transition:.2s;
 }
 
+.home-btn{
+    margin-right:10px; /* space before Contact Us */
+}
+
+.home-btn:hover,
 .contact-btn:hover{
-transform:translateY(-2px);
+    transform:translateY(-2px);
 }
 .about{margin-top:18px}.about h1{margin-bottom:8px;color:#C1121F}
 /* .site-content-box{
