@@ -92,12 +92,13 @@ text-align:center;
 line-height:1.8;
 } */
 
-.hero-image {
-    width: 100%;
-    height: calc(100vh - 80px); /* subtract header height */
-    object-fit: cover; /* fills nicely without stretching */
-    display: block;
+.hero-image{
+    width:100%;
+    height:calc(100vh - 80px);
+    /* auto; */
+    display:block;
 }
+
 .site-content-box{
     background:#fff;
     padding:35px 40px;
