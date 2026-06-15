@@ -39,14 +39,16 @@ body{
 .header-buttons{
     display:flex;
     align-items:center;
-    gap:8px;
+    /* gap:8px; */
+    gap:4px;
 }
 
 .home-btn,
 .contact-btn{
     background:#fff;
     color:#b30000;
-    padding:12px 18px;
+    /* padding:12px 18px; */
+    padding:12px 12px;
     text-decoration:none;
     border-radius:10px;
     font-weight:600;
