@@ -91,12 +91,27 @@ margin:25px auto;
 text-align:center;
 line-height:1.8;
 } */
+/* 
+.hero-image{
+    width:100%;
+    height:calc(100vh - 80px);
+    display:block;
+} */
+
 
 .hero-image{
     width:100%;
     height:calc(100vh - 80px);
-    /* auto; */
+    object-fit:cover;
     display:block;
+}
+
+/* Mobile */
+@media (max-width:768px){
+    .hero-image{
+        height:auto;
+        object-fit:contain;
+    }
 }
 
 .site-content-box{
